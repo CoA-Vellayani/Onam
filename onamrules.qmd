@@ -286,7 +286,7 @@ toc: false
 
   <div class="convener">
     <div class="role">പ്രോഗ്രാം കമ്മിറ്റി കൺവീനർ</div>
-    <div class="name">ഡോ. പ്രഥീഷ് പി. ഗോപിനാഥ്</div>
+    <div class="name">ഡോ. പ്രതീഷ് പി. ഗോപിനാഥ്</div>
     <div class="name-en">Dr. Pratheesh P. Gopinath</div>
     <a class="call" href="tel:+917011904862">📱 7011904862</a>
   </div>
