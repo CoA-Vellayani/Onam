@@ -1,0 +1,154 @@
+---
+title: "Onam Celebration"
+format: html
+toc: false
+---
+
+```{=html}
+<style>
+  :root{
+    --brand:#e68a00; --brand-2:#b36b00; --bg:#fffaf3; --ink:#222;
+  }
+  body{ font-family: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--bg); margin:0; color:var(--ink); }
+
+  .hero{
+    text-align:center; padding:42px 18px;
+    background:linear-gradient(180deg,var(--brand) 0%, var(--brand-2) 100%); color:#fff;
+  }
+  .hero img{ max-width:280px; border-radius:16px; box-shadow:0 10px 24px rgba(0,0,0,.25); }
+  .hero h1{ font-size:2.4rem; margin:18px 0 8px; }
+  .tag{ display:inline-block; background:#fff; color:#5a3b00; padding:6px 12px; border-radius:999px; font-weight:600; margin:8px 6px 0; }
+
+  /* ---------- REGISTRATION FORM SECTION ---------- */
+  .reg-wrap{
+    max-width:720px;
+    margin:32px auto;
+    padding:0 14px;
+  }
+  .reg-card{
+    background:#fff;
+    border-radius:16px;
+    padding:18px 16px 22px;
+    box-shadow:0 6px 20px rgba(0,0,0,.10);
+    border:1px solid #f1e3d2;
+  }
+  .reg-card h3{ margin:2px 0 4px; color:var(--brand-2); font-size:1.2rem; line-height:1.35; }
+  .reg-card p{ margin:6px 0 14px; line-height:1.55; font-size:.98rem; color:#444; }
+
+  .form-embed{
+    position:relative;
+    width:100%;
+    border-radius:12px;
+    overflow:hidden;
+    background:#fff;
+    border:1px solid #f1e3d2;
+  }
+  .form-embed iframe{
+    display:block;
+    width:100%;
+    height:1400px;   /* generous height => whole form flows, less nested scrolling */
+    border:0;
+  }
+
+  .open-fallback{ text-align:center; margin:14px 0 2px; }
+  .open-fallback a{
+    display:inline-block;
+    padding:.8rem 1.5rem;
+    font-size:1rem;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(135deg,var(--brand),var(--brand-2));
+    border-radius:999px;
+    text-decoration:none;
+    box-shadow:0 6px 16px rgba(230,138,0,.3);
+  }
+  .open-fallback small{ display:block; margin-top:8px; color:#8a5200; font-size:.85rem; }
+
+  /* ---------- EVENT DETAIL CARDS ---------- */
+  .wrap{ max-width:720px; margin:24px auto; padding:0 14px; }
+  .cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+  .card{ background:#fff; border-radius:14px; padding:18px; box-shadow:0 4px 14px rgba(0,0,0,.08); }
+  .card h3{ margin:4px 0 10px; color:var(--brand-2); font-size:1.15rem; }
+  .card p{ margin:6px 0; line-height:1.5; }
+
+  .notice{
+    border-left:6px solid var(--brand-2); background:#fff3e6; border-radius:10px; padding:14px 16px; margin:18px 0;
+  }
+  .notice strong{ color:#8a5200; }
+
+  .footer{ text-align:center; padding:26px 14px; margin-top:42px; background:#fff0e0; border-top:2px solid var(--brand-2); }
+
+  @media (max-width:600px){
+    .hero h1{ font-size:1.9rem; }
+    .reg-card{ padding:14px 12px 18px; }
+    .reg-card h3{ font-size:1.08rem; }
+    .form-embed iframe{ height:1550px; }
+  }
+</style>
+
+<!-- hero -->
+<div class="hero">
+  <img src="www/banner.webp" alt="Onam celebration banner">
+  <h1>Onam celebration 2026</h1>
+  <div>
+    <span class="tag">📅 Programme: 21 August 2026 • starts 8:00 AM</span>
+    <span class="tag">📍 Venue: Indoor stadium & nearby areas</span>
+  </div>
+</div>
+
+<!-- registration FIRST, mobile-friendly -->
+<div class="reg-wrap">
+  <div class="reg-card">
+    <h3>🎭 Cultural programme registration | കലാപരിപാടി രജിസ്ട്രേഷൻ</h3>
+    <p>
+      Fill the form below to register. On mobile, scroll down inside the form
+      to reach every question, then tap <strong>Submit</strong>.<br>
+      പരിപാടികളിൽ പങ്കെടുക്കാൻ ആഗ്രഹിക്കുന്നവർ ദയവായി താഴെയുള്ള ഫോമിൽ രജിസ്റ്റർ ചെയ്യുക.
+    </p>
+
+    <div class="form-embed">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLScm11NGsT4O6s1NpnW9-5M_FAoRv1ZJGE3g-KHJP-dsHWlBDg/viewform?embedded=true"
+        loading="lazy" allowfullscreen>
+        Loading…
+      </iframe>
+    </div>
+
+    <div class="open-fallback">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScm11NGsT4O6s1NpnW9-5M_FAoRv1ZJGE3g-KHJP-dsHWlBDg/viewform"
+         target="_blank" rel="noopener">
+        ഫോം പുതിയ ടാബിൽ തുറക്കുക / Open form in full screen
+      </a>
+      <small>Trouble filling here? Open the form in a new tab.</small>
+    </div>
+  </div>
+</div>
+
+<!-- event details -->
+<div class="wrap">
+  <div class="cards">
+    <div class="card">
+      <h3>Event details (English)</h3>
+      <p><strong>Date:</strong> 21 August 2026</p>
+      <p><strong>Start time:</strong> 8:00 AM</p>
+      <p><strong>Venue:</strong> Indoor stadium and nearby areas</p>
+      <div class="notice">
+        <strong>Registration deadline:</strong> please register before <strong>3:00 PM on 19 August 2026</strong>.
+      </div>
+    </div>
+    <div class="card">
+      <h3>പരിപാടി വിവരങ്ങൾ (Malayalam)</h3>
+      <p><strong>തീയതി:</strong> 2026 ഓഗസ്റ്റ് 21</p>
+      <p><strong>ആരംഭ സമയം:</strong> രാവിലെ 8:00</p>
+      <p><strong>വേദി:</strong> ഇൻഡോർ സ്റ്റേഡിയം & സമീപ പ്രദേശങ്ങൾ</p>
+      <div class="notice">
+        <strong>രജിസ്ട്രേഷൻ അവസാന സമയം:</strong> <strong>2026 ഓഗസ്റ്റ് 19</strong> ഉച്ചയ്ക്ക് <strong>3:00</strong> മണിയ്ക്ക് മുമ്പ് രജിസ്റ്റർ ചെയ്യണം.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  🌼 wishing everyone a joyful and vibrant onam! 🌼
+</div>
+```

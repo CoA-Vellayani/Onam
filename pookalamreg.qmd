@@ -1,0 +1,215 @@
+---
+title: "Pookalam Registration"  
+toc: false
+---  
+```{=html}
+<style>
+  :root{
+    --brand:#e68a00; --brand-2:#b36b00; --bg:#fffaf3; --ink:#222;
+  }
+
+  /* ---------- REGISTRATION FORM SECTION ---------- */
+  .reg-wrap{
+    max-width:720px;
+    margin:32px auto;
+    padding:0 14px;
+    font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--ink);
+  }
+  .reg-card{
+    background:#fff;
+    border-radius:16px;
+    padding:18px 16px 22px;
+    box-shadow:0 6px 20px rgba(0,0,0,.10);
+    border:1px solid #f1e3d2;
+  }
+  .reg-card h3{
+    margin:2px 0 4px;
+    color:var(--brand-2);
+    font-size:1.2rem;
+    line-height:1.35;
+  }
+  .reg-card p{
+    margin:6px 0 14px;
+    line-height:1.55;
+    font-size:.98rem;
+    color:#444;
+  }
+  .form-embed{
+    position:relative;
+    width:100%;
+    border-radius:12px;
+    overflow:hidden;
+    background:#fff;
+    border:1px solid #f1e3d2;
+  }
+  /* Tall on mobile so the whole form scrolls inside naturally */
+  .form-embed iframe{
+    display:block;
+    width:100%;
+    height:1400px;      /* generous height => less nested scrolling on phones */
+    border:0;
+  }
+
+  /* Sticky "Open in new tab" fallback for phones that render the embed poorly */
+  .open-fallback{
+    text-align:center;
+    margin:14px 0 2px;
+  }
+  .open-fallback a{
+    display:inline-block;
+    padding:.8rem 1.5rem;
+    font-size:1rem;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(135deg,var(--brand),var(--brand-2));
+    border-radius:999px;
+    text-decoration:none;
+    box-shadow:0 6px 16px rgba(230,138,0,.3);
+  }
+  .open-fallback small{
+    display:block;
+    margin-top:8px;
+    color:#8a5200;
+    font-size:.85rem;
+  }
+
+  @media (max-width:600px){
+    .reg-card{ padding:14px 12px 18px; }
+    .reg-card h3{ font-size:1.08rem; }
+    .form-embed iframe{ height:1550px; }
+  }
+</style>
+
+<div class="reg-wrap">
+  <div class="reg-card">
+    <h3>🌸 Pookalam registration | പൂക്കളം രജിസ്ട്രേഷൻ</h3>
+    <p>
+      Fill the form below to register your team. On mobile, scroll down inside
+      the form to reach every question, then tap <strong>Submit</strong>.<br>
+      നിങ്ങളുടെ ടീമിനെ രജിസ്റ്റർ ചെയ്യാൻ താഴെയുള്ള ഫോം പൂരിപ്പിക്കുക.
+    </p>
+
+    <div class="form-embed">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfZqbYtKhEx2-HCGARtQyB6uvdFpeVpukSQ1jz2gL7WUfvBHA/viewform?embedded=true"
+        loading="lazy" allowfullscreen>
+        Loading…
+      </iframe>
+    </div>
+
+    <div class="open-fallback">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZqbYtKhEx2-HCGARtQyB6uvdFpeVpukSQ1jz2gL7WUfvBHA/viewform"
+         target="_blank" rel="noopener">
+        ഫോം പുതിയ ടാബിൽ തുറക്കുക / Open form in full screen
+      </a>
+      <small>Trouble filling here? Open the form in a new tab.</small>
+    </div>
+  </div>
+</div>
+```
+
+<!-- ```{=html} -->
+<!-- <style> -->
+<!--   .teamlist { -->
+<!--     max-width: 900px; -->
+<!--     margin: 40px auto; -->
+<!--     border-collapse: collapse; -->
+<!--     width: 100%; -->
+<!--     font-family: "Inter", sans-serif; -->
+<!--     box-shadow: 0 6px 20px rgba(0,0,0,0.1); -->
+<!--     border-radius: 12px; -->
+<!--     overflow: hidden; -->
+<!--   } -->
+<!--   .teamlist th { -->
+<!--     background: #e68a00; -->
+<!--     color: #fff; -->
+<!--     text-align: left; -->
+<!--     padding: 12px 16px; -->
+<!--     font-size: 1rem; -->
+<!--   } -->
+<!--   .teamlist td { -->
+<!--     padding: 12px 16px; -->
+<!--     border-bottom: 1px solid #f1f1f1; -->
+<!--   } -->
+<!--   .teamlist tr:nth-child(even) { -->
+<!--     background: #fff7ef; -->
+<!--   } -->
+<!--   .teamlist tr:hover { -->
+<!--     background: #ffe1b3; -->
+<!--   } -->
+<!--   .teamlist caption { -->
+<!--     caption-side: top; -->
+<!--     font-size: 1.3rem; -->
+<!--     font-weight: 600; -->
+<!--     margin-bottom: 10px; -->
+<!--     color: #b36b00; -->
+<!--   } -->
+<!-- </style> -->
+
+<!-- <table class="teamlist"> -->
+<!--   <caption>🌸 Final Team List – Onam Pookkalam Competition 🌸</caption> -->
+<!--   <thead> -->
+<!--     <tr> -->
+<!--       <th>Sl.No</th> -->
+<!--       <th>Team Name</th> -->
+<!--       <th>Captain</th> -->
+<!--     </tr> -->
+<!--   </thead> -->
+<!--   <tbody> -->
+<!--     <tr><td>1</td><td>Teachers team</td><td>Gopika Somanath</td></tr> -->
+<!--     <tr><td>2</td><td>SOLDIERS</td><td>ANIL TP</td></tr> -->
+<!--     <tr><td>3</td><td>Department of Entomology</td><td>Aswathy J</td></tr> -->
+<!--     <tr><td>4</td><td>മേളം</td><td>Banka Vaishnavi</td></tr> -->
+<!--     <tr><td>5</td><td>അത്തം പത്ത്</td><td>Vandana devi S</td></tr> -->
+<!--     <tr><td>6</td><td>തരംഗം</td><td>Alosious Joy</td></tr> -->
+<!--     <tr><td>7</td><td>Farm labourers</td><td>Arun raj r</td></tr> -->
+<!--     <tr><td>8</td><td>തിരുവോണത്തളിർ</td><td>Ruksana R S</td></tr> -->
+<!--     <tr><td>9</td><td>Mannil virinja pookalam</td><td>Jaya Joseph</td></tr> -->
+<!--     <tr><td>10</td><td>2024 Batch</td><td>Afishek Krishna</td></tr> -->
+<!--     <tr><td>11</td><td>Engineering & Electrical Sub Division</td><td>AKHIL T K</td></tr> -->
+<!--     <tr><td>12</td><td>Akhira</td><td>Sunusha S</td></tr> -->
+<!--     <tr><td>13</td><td>Department of Plant Pathology</td><td>Govindh A. Nair</td></tr> -->
+<!--     <tr><td>14</td><td>Agri Stat</td><td>Adarsh V S</td></tr> -->
+<!--     <tr><td>15</td><td>Team Extension</td><td>Soorya P V</td></tr> -->
+<!--     <tr><td>16</td><td>PRRAL</td><td>Vishnu V A</td></tr> -->
+<!--     <tr><td>17</td><td>Microflora</td><td>A.S. Devika</td></tr> -->
+<!--     <tr><td>18</td><td>Department of Postharvest Management</td><td>Lakshmi S R</td></tr> -->
+<!--   </tbody> -->
+<!-- </table> -->
+<!-- ```   -->
+
+
+## Pookalam Rules {.unnumbered}
+
+```{=html}
+<!-- Register Button -->
+<div class="register-btn-wrap">
+  <a href="pookalamrules.html" class="register-btn">നിയമങ്ങൾ കാണാൻ ക്ലിക്ക് ചെയ്യുക/Rules</a>
+</div>
+
+<style>
+  .register-btn-wrap{
+    text-align:center;
+    margin:2rem 0;
+  }
+  .register-btn{
+    display:inline-block;
+    padding:.9rem 1.6rem;
+    font-size:1.05rem;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(135deg,#6b46c1,#9f7aea);
+    border-radius:999px;
+    text-decoration:none;
+    box-shadow:0 6px 18px rgba(111,61,204,.3);
+    transition:all .25s ease;
+  }
+  .register-btn:hover,
+  .register-btn:focus{
+    background:linear-gradient(135deg,#5a38a8,#7d5ac9);
+    box-shadow:0 8px 24px rgba(111,61,204,.45);
+    transform:translateY(-2px);
+  }
+</style>
+```
